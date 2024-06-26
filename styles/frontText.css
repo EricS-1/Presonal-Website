@@ -1,20 +1,30 @@
-.title{
-    position: absolute;
-    font-family: monospace, 'Courier New';
-    font-size: 80px;
+#front {
+    width: 98vw;
+    height: 98vh;
+}
+
+#front .text{
+    position: relative;
+    width: 600px;
+    height: auto;
+    margin:0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#front #header{
     text-align: center;
-    top: 28%;
-    right: 25%;
-    left: 25%;
+    margin:0;
+}
+
+#front .name{
+    font-family:'Courier New';
+    font-size: 4.5vw;
     color: rgb(255,222,90);
 }
 
-.myDesc{
-    position: absolute;
-    font-family: Monospace, 'Courier New', Courier, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    top: 47%;
-    right: 25%;
-    left: 25%;
+#front .desc{
+    font-family:Monospace, 'Courier New';
+    font-size: 2vw;
+    color: whitesmoke;
 }
