@@ -26,11 +26,12 @@
 
 .front .text{
     position: relative;
-    width: 600px;
+    width: 50vw;
     height: auto;
-    margin:0 auto;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-left: 27vw;
+    padding-top: 1vh;
+    transform: translateX(-50%);
+    bottom: 94vh;
 }
 
 .front #header{
@@ -40,8 +41,9 @@
 
 .front .name{
     font-family: 'Archivo', sans-serif;
-    font-size: 4.5vw;
+    font-size: 8vw;
     font-weight: 900;
+    text-shadow: -13px -13px #fa7800;
     color: rgb(255,222,90);
 }
 
@@ -53,8 +55,10 @@
 
 .front .banner{
     position: relative;
-    width: 550px;
-	height: 650px;
+    width: 60vw;
+	height: 94vh;
+    margin-top: 3vh;
+    right: 8.5vw;
 	transform: skew(-20deg);
 	background: rgb(239, 34, 83);
 }
