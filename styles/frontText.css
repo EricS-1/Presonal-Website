@@ -1,64 +1,30 @@
-/* Fonts */
-@font-face {
-    font-family: 'Archivo';
-    src: url(/fonts/Archivo-VariableFont_wdth,wght.ttf) format('truetype');
+#front {
+    width: 98vw;
+    height: 98vh;
 }
 
-/* Animations */
-@keyframes slideInRight{
-    from{
-        transfrom: translateX();
-    }
-
-    to{
-        transform: translateX(0px);
-    }
-}
-
-/* Styles */
-.front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background-color: rgb(239, 34, 83,0.5);
-}
-
-.front .text{
+#front .text{
     position: relative;
-    width: 50vw;
+    width: 600px;
     height: auto;
-    margin-left: 27vw;
-    padding-top: 1vh;
-    transform: translateX(-50%);
-    bottom: 94vh;
+    margin:0 auto;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.front #header{
+#front #header{
     text-align: center;
     margin:0;
 }
 
-.front .name{
-    font-family: 'Archivo', sans-serif;
-    font-size: 8vw;
-    font-weight: 900;
-    text-shadow: -13px -13px #fa7800;
+#front .name{
+    font-family:'Courier New';
+    font-size: 4.5vw;
     color: rgb(255,222,90);
 }
 
-.front .desc{
-    font-family: 'Archivo', sans-serif;
+#front .desc{
+    font-family:Monospace, 'Courier New';
     font-size: 2vw;
     color: whitesmoke;
-}
-
-.front .banner{
-    position: relative;
-    width: 60vw;
-	height: 94vh;
-    margin-top: 3vh;
-    right: 8.5vw;
-	transform: skew(-20deg);
-	background: rgb(239, 34, 83);
 }
